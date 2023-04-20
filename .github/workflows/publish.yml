@@ -10,7 +10,7 @@ jobs:
       matrix:
         os: [ubuntu-latest]
         node-version: [18]
-        package: [tst_user1]
+        package: [tst_user12]
     steps:
       - name: Get repository code [${{ matrix.package }}]
         uses: actions/checkout@v3
